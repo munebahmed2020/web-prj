@@ -1,0 +1,15 @@
+#show-h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #aed1ce;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#show-div-1{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}

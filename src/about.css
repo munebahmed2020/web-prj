@@ -1,0 +1,66 @@
+.a1{
+    height: 700px;
+    width: 550px;
+    background-color: #ffffff;
+    padding-top: -20px;
+    margin-left: 130px;
+    padding-bottom: 160px;
+    
+    
+    
+    }
+    
+    
+    
+    #t2{
+        font-family: sans-serif;
+        font-size: xx-large;
+     margin-right: 40px;
+        
+    
+    }
+    #t3{
+    font-family: sans-serif;
+    font-size: large;
+    
+    
+    
+    }
+    #t4{
+        font-family: sans-serif;
+        font-size: large;
+        
+    }
+    #t5{
+        font-family: sans-serif;
+        font-size: large;
+        
+    }
+    .about{
+    
+        display: flex;
+    }
+    
+    #truck1{
+    
+        width: 600px;
+        height: 600px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+        padding-top: 120px;
+    }
+    
+    #b2{
+    padding: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    
+    }
+    
+    #b2:hover{
+    background-color: wheat;
+    color: black;
+    
+    }

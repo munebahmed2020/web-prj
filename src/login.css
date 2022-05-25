@@ -1,0 +1,111 @@
+#form-1{
+    padding: 40px 450px 40px 550px;
+}
+
+#form-p1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #aed1ce;
+    margin-top: 70px;
+}
+#form-p2{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #aed1ce;
+}
+
+#input-1{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 10px 250px 10px 8px;
+    border: 1px solid #aed1ce; 
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#form-1 input::placeholder{
+    color: black;
+}
+#s-1{
+    font-size: 16px;
+    padding: 10px 165px 10px 5px;
+    font-family: 'Montserrat';
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#form-p3{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 10px 0px 10px 5px;
+    margin-right: 70px;
+    border: 1px solid #aed1ce;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#text-area-form{
+    border-radius: 5px;
+    border: 1px solid #aed1ce;
+
+}
+#text-area-form::placeholder{
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Montserrat';
+}
+#submit-form{
+    margin-top: 40px;
+    background-color: #aed1ce;
+    color: white;
+    padding: 15px;
+    font-family:'Montserrat';
+    border: 1px solid #aed1ce5;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 60px;
+   
+}
+
+#submit-form:hover{
+    background-color: white;
+    color: #aed1ce;
+}
+
+#pp1,#pp2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #aed1ce;
+    margin-top: 70px;
+}
+
+#submit-form2{
+    margin-top: 40px;
+    background-color: #aed1ce;
+    color: white;
+    padding: 15px;
+    font-family:'Montserrat';
+    border: 1px solid #aed1ce;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 260px;
+}
+
+#img11{
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+

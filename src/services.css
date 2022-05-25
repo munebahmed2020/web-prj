@@ -1,0 +1,144 @@
+#c1{
+    height: 300px;
+    width: 220px;
+    background-color: rgba(211, 211, 211, 0.514);
+    border-radius: 20px;
+    
+    }
+    
+    #c2{
+        height: 300px;
+        width: 220px;
+        background-color: rgba(211, 211, 211, 0.514);
+        border-radius: 20px;
+    }
+    #c3{
+        height: 300px;
+        width: 220px;
+     background-color: rgba(211, 211, 211, 0.514);
+     border-radius: 20px;       
+    }
+    #c4{
+    height: 300px;
+    width: 220px;
+    background-color: rgba(211, 211, 211, 0.514);
+    border-radius: 20px;
+                
+    }
+    
+     .cards {
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 249, 249);
+    padding-left: 150px;
+    
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+    }
+    #c1 {
+        margin: 20px;
+        
+      
+    }
+    #c2 {
+        margin: 20px;
+        
+    }
+    #c3 {
+        margin: 20px;
+       
+    }
+    #c4 {
+        margin: 20px;
+       
+    }
+    
+    #i1{
+        font-size: 500%;
+        padding-left: 10px;
+        
+        
+    }
+    
+    #itext1{
+    font-family: sans-serif;
+    font-size: 200%;
+    padding-left: 13px;
+    margin-top: 30px;
+    
+    
+    
+    }
+    #i2{
+        font-size: 500%;
+        padding-left: 10px;
+        
+        
+    }
+    
+    #itext2{
+    font-family: sans-serif;
+    font-size: 140%;
+    padding-left: 13px;
+    margin-top: 36px;
+    
+    }
+    
+    #i3{
+        font-size: 500%;
+        padding-left: 10px;
+        
+        
+    }
+    
+    #itext3{
+        font-family: sans-serif;
+        font-size: 140%;
+        padding-left: 10px;
+        margin-top: 37px;
+        
+        
+        }
+    
+    
+    
+        #i4{
+            font-size: 500%;
+            padding-left: 4px;
+            
+            
+        }
+    
+        #itext4{
+            font-family: sans-serif;
+            font-size: 140%;
+            padding-left: 10px;
+            margin-top: 37px;
+            
+            
+            }
+    
+    #c1:hover{
+        background-color: rgba(106, 134, 136, 0.411);
+        color: white;
+    }    
+    
+    #c2:hover{
+        background-color:  rgba(106, 134, 136, 0.411);
+        color: white;
+    }  
+    
+    #c3:hover{
+        background-color:  rgba(106, 134, 136, 0.411);
+        color: white;
+    }  
+    
+    #c4:hover{
+        background-color:  rgba(106, 134, 136, 0.411);
+        color: white;
+    }      
+
+
+
+  

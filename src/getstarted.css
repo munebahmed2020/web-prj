@@ -1,0 +1,32 @@
+
+
+
+#b1{
+
+margin-left: 624px;
+margin-bottom:900px;
+padding: 10px;
+border-radius: 5px;
+position: relative;
+z-index: 3;
+
+
+
+}
+#b1:hover{
+
+    background-color: rgba(197, 223, 231, 0.993);
+}
+
+#t1{
+
+color: rgb(244, 247, 250);
+margin-left: 110px;
+margin-top:-1050px;
+font-size: 400%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+z-index: 2;
+
+
+}
