@@ -3,14 +3,12 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import './login.css';
 import { useNavigate } from "react-router";
+import { addForm2 } from "./api";
 
 const ValidationSchema = Yup.object().shape({
 
-    email: Yup.string()
-        .email("Invalid email address format")
-        .required("Email is required"),
-    password: Yup.string()
-    .required("Password is required"),
+    email: Yup.string() .required("Email is required"),
+    password: Yup.string()  .required("Password is required"),
 
 });
 
@@ -29,6 +27,10 @@ const Login = () => {
                         onSubmit={async (values) => {
                             await new Promise((r) => setTimeout(r, 100));
                             console.log(values);
+                            const handleForm = async () => {
+                                await addForm2(values)
+                              }
+                              handleForm();
                             navigate("/show", { state: values });
                         }}
                     >
@@ -81,7 +83,7 @@ const Login = () => {
                                             />
                                             <ErrorMessage
                                                 component="div"
-                                                name="phone"
+                                                name="password"
                                                 className="invalid-feedback"
                                             />
                                         </div>

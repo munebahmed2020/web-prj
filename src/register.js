@@ -3,6 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import './register.css'
 import { useNavigate } from "react-router";
+import { addForm3 } from "./api";
 
 const ValidationSchema = Yup.object().shape({
     name: Yup.string()
@@ -16,6 +17,8 @@ const ValidationSchema = Yup.object().shape({
         .required("Phone is required"),
     gender: Yup.string()
         .required("Select Your Gender"),
+    password: Yup.string()
+    .required("Password is required"),
    
 
 
@@ -31,12 +34,16 @@ const Register = () => {
                 <div className="col-lg-12">
                     <Formik
 
-                        initialValues={{ name: "", email: "", phone: "", gender: "",truck: "",}}
+                        initialValues={{ name: "", email: "", phone: "", gender: "",password: "",}}
                         validationSchema={ValidationSchema}
                         onSubmit={async (values) => {
                             await new Promise((r) => setTimeout(r, 100));
                             console.log(values);
-                            navigate("/show2", { state: values });
+                            const handleForm = async () => {
+                                await addForm3(values)
+                              }
+                              handleForm();
+                            navigate("/show4", { state: values });
                         }}
                     >
                         {({ touched, errors, isSubmitting, values }) =>
@@ -114,30 +121,7 @@ const Register = () => {
 
                                         
 
-                                        <div>
-                                            <p id='form-p3' className={`mt-2 form-control
-						${touched.truck && errors.truck
-                                                    ? "is-invalid"
-                                                    : ""
-                                                }`}>Truck:
-                                                <br />
-                                                
-                                                
-                                                
-                                                <Field type="checkbox" name="truck" id="Dry Van" value="dryvan" />
-                                                <label id='l-dryvan' htmlFor="DryVan">DryVan</label>
-                                                <Field type="checkbox" name="truck" id="Reefer" value ="reefer"/>
-                                                <label id='1-reefer' htmlFor="Reefer">Reefer</label>
-                                                <Field type="checkbox" name="truck" id="PowerOnly" value ="poweronly"/>
-                                                <label id='1-poweronly' htmlFor="PowerOnly">Power Only</label>
-
-                                            </p>
-                                            <ErrorMessage
-                                                component="div"
-                                                name="truck"
-                                                className="invalid-feedback"
-                                            />
-                                        </div>
+                                        
 
                                         <div>
                                             <p id='form-p3' className={`mt-2 form-control
@@ -161,23 +145,26 @@ const Register = () => {
                                             />
                                         </div>
 
-                                        <div className="form-group " >
+                                        <div  className="form-group">
 
-                                            <Field
-                                                id="input-1"
-                                                type="text"
-                                                name="prname"
-                                                placeholder="Number of Power Units"
-                                                className={`mt-2 form-control
-${touched.prname && errors.prname ? "is-invalid" : ""}`}
-                                            />
+<Field 
+    id="input-1"
+    type="password"
+    name="password"
+    placeholder="Password"
+    className={`mt-2 form-control
+${touched.password && errors.password
+            ? "is-invalid"
+            : ""
+        }`}
+/>
+<ErrorMessage
+    component="div"
+    name="password"
+    className="invalid-feedback"
+/>
+</div>
 
-                                            <ErrorMessage
-                                                component="div"
-                                                name="prname"
-                                                className="invalid-feedback"
-                                            />
-                                        </div>
 
                                         <button
                                             id='submit-form'
@@ -205,18 +192,11 @@ ${touched.prname && errors.prname ? "is-invalid" : ""}`}
                                         <li className="list-group-item">
                                             Phone: {values.phone}
                                         </li>
-                                        <li className="list-group-item">
-                                           Truck:{values.truck}
-                                        </li>
+                                     
                                         <li className="list-group-item">
                                             Gender: {values.gender}
                                         </li>
-                                        <li className="list-group-item">
-                                            Product: {values.product}
-                                        </li>
-                                        <li className="list-group-item">
-                                            PowerUnits: {values.prname}
-                                        </li>
+                                      
                                     </ul>
 
                                 </div>

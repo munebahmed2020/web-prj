@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header';
 import Dispatchers from '../dispatchers';
 import Footer from '../footer';
+import PostRequest from '../PostRequest';
 class DispatchersPage extends Component {
     
     render() { 
@@ -9,6 +10,7 @@ class DispatchersPage extends Component {
          <div>
 <Header/>
 <Dispatchers/>
+<PostRequest/>
 <Footer/>
 
 

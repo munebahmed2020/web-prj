@@ -22,7 +22,7 @@ const Dispatchers = (props) => {
                             <Card.Text>
                                 {card.text}
                             </Card.Text>
-                            <Link className="btn btn-info" to="/show3" state={{image: card.image, title: card.title, text:card.text }}>Hire</Link>
+                            <Link className="btn btn-info" to="/hireform" state={{image: card.image, title: card.title, text:card.text }}>Hire</Link>
                         </Card.Body>
                     </Card>
 

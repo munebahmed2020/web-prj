@@ -5,7 +5,7 @@ function Map() {
       <div id='locatediv'>
         <div className="map_section">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sPT%20Kulkul%20Teknologi%20Internasional!5e0!3m2!1sen!2sid!4v1601138221085!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13610.909631659264!2d74.2766072!3d31.476683949999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919023103af0bf3%3A0xc69a4d92168bdf89!2sDoctors%20Hospital%20%26%20Medical%20Center!5e0!3m2!1sen!2s!4v1654275988200!5m2!1sen!2s"
           width="650"
           height="450"
           frameborder="0"
@@ -24,3 +24,13 @@ function Map() {
   }
   
   export default Map;
+
+
+
+
+
+
+
+
+
+  

@@ -8,7 +8,7 @@ function Show3() {
         <div>
             <img src={image} alt={""}/>
             <h1>{title}</h1>
-            <h1>{text}</h1>    
+            <h2>{text}</h2>    
         </div>
     );
 }

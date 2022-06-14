@@ -14,11 +14,12 @@ class LandingPage extends Component {
             <div>
                 <Header/>
 
-  
+
+                <Slider/>  
 <Getstarted/> 
 
 
-<Slider/>
+
 
 <Map/>
 <Footer/>
