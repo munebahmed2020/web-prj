@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/muneeb2020/webapp.git/static/css/main.d0e18d0f.css",
+    "main.js": "/muneeb2020/webapp.git/static/js/main.fa7e271b.js",
+    "static/js/787.ef83791c.chunk.js": "/muneeb2020/webapp.git/static/js/787.ef83791c.chunk.js",
+    "static/media/img4.jpg": "/muneeb2020/webapp.git/static/media/img4.da237ed8575090f75bf3.jpg",
+    "static/media/img2.jpg": "/muneeb2020/webapp.git/static/media/img2.72aadfdd8822969e594b.jpg",
+    "static/media/img3.jpg": "/muneeb2020/webapp.git/static/media/img3.9fd6474368e19924ef41.jpg",
+    "static/media/img1.jpg": "/muneeb2020/webapp.git/static/media/img1.0241c3474eed827e3057.jpg",
+    "static/media/bg1.mp4": "/muneeb2020/webapp.git/static/media/bg1.45578c87bb2d75217718.mp4",
+    "static/media/d3.jpg": "/muneeb2020/webapp.git/static/media/d3.4bbab323d37583a3584b.jpg",
+    "static/media/bootstrap-icons.woff?": "/muneeb2020/webapp.git/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/d1.jpg": "/muneeb2020/webapp.git/static/media/d1.38edc49c5670eaf33651.jpg",
+    "static/media/img12.jpg": "/muneeb2020/webapp.git/static/media/img12.4d9bd5b4d522d38f0c6a.jpg",
+    "static/media/img5.jpg": "/muneeb2020/webapp.git/static/media/img5.b834f5b1a144b81a8266.jpg",
+    "static/media/bootstrap-icons.woff2?": "/muneeb2020/webapp.git/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/d2.jpg": "/muneeb2020/webapp.git/static/media/d2.ac2a21c1bddf41661a50.jpg",
+    "static/media/img7.jpg": "/muneeb2020/webapp.git/static/media/img7.c98353d0cd11fa6ee5c9.jpg",
+    "static/media/img8.jpg": "/muneeb2020/webapp.git/static/media/img8.6067f74f190109c51b75.jpg",
+    "static/media/img10.jpg": "/muneeb2020/webapp.git/static/media/img10.0fd749dcd0c8b71454d3.jpg",
+    "index.html": "/muneeb2020/webapp.git/index.html",
+    "main.d0e18d0f.css.map": "/muneeb2020/webapp.git/static/css/main.d0e18d0f.css.map",
+    "main.fa7e271b.js.map": "/muneeb2020/webapp.git/static/js/main.fa7e271b.js.map",
+    "787.ef83791c.chunk.js.map": "/muneeb2020/webapp.git/static/js/787.ef83791c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0e18d0f.css",
+    "static/js/main.fa7e271b.js"
+  ]
+}
