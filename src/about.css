@@ -5,7 +5,7 @@
     padding-top: -20px;
     margin-left: 130px;
     padding-bottom: 160px;
-    
+    margin-top:100px;
     
     
     }
@@ -43,15 +43,14 @@
     
     #truck1{
     
-        width: 600px;
-        height: 600px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
+        width: 660px;
+        height: 800px;
+      margin-top: -120px;
         
         padding-top: 120px;
     }
     
-    #b2{
+    #b7{
     padding: 20px;
     padding-left: 20px;
     border-radius: 10px;
@@ -59,7 +58,7 @@
     
     }
     
-    #b2:hover{
+    #b7:hover{
     background-color: wheat;
     color: black;
     

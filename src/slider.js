@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'bootstrap';
+import { Carousel } from 'react-bootstrap';
 import img1 from './images/img1.jpg';
 import img2 from './images/img2.jpg';
 import img3 from './images/img3.jpg';
@@ -9,28 +9,46 @@ class Slider extends Component {
     
     render() { 
         return (
+<Carousel fade>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img1}
+      alt="First slide"
+      height="600px"
+      width="100%"
+    />
+    <Carousel.Caption style={{fontSize:"400%",fontFamily:"poppins"}}>
+    Welcome to Dispatch Experts Group LLC
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img2}
+      alt="Second slide"
+      height="600px"
+      width="100%"
+    />
 
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={img1} style={{ height: "600px"}}className="d-block w-100" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src={img2} style={{ height: "600px"}} className="d-block w-100" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src={img3} style={{ height: "600px"}} className="d-block w-100" alt="..."/>
-              </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
+    <Carousel.Caption style={{fontSize:"400%",fontFamily:"poppins"}}>
+    Welcome to Dispatch Experts Group LLC
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img3}
+      alt="Third slide"
+      height="600px"
+      width="100%"
+    />
+
+    <Carousel.Caption style={{fontSize:"400%",fontFamily:"poppins"}}>
+    Welcome to Dispatch Experts Group LLC
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
 
 
 

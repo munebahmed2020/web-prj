@@ -8,7 +8,6 @@ import RegisterPage from "./pages/RegisterPage";
 import Show from "./show";
 import Show2 from "./show2";
 import Show4 from "./show4";
-import Show3 from "./Show3";
 import Hireform from "./hireform";
 import Show5 from "./show5";
 
@@ -29,6 +28,7 @@ function App() {
           <Route path="show5" element={<Show5/>}/>
           <Route path="/signup" element={<RegisterPage/>}/>
           <Route path="/hireform" element={<Hireform/>}/>
+          
 
         </Routes>
 

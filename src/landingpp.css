@@ -1,0 +1,23 @@
+#frontpic{
+
+
+    width: 1368px;
+    height: 100px;
+}
+
+#b2{
+
+margin-top:-2000px;
+position:relative;
+z-index: 1;
+margin-left: 1000px;
+padding:20px;
+border-radius:5px;
+
+}
+
+#b2:hover{
+    background-color: wheat;
+    color:black;
+    
+    }

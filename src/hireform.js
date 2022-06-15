@@ -2,7 +2,7 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import './register.css'
+import './hireform.css'
 import { useNavigate } from "react-router";
 import { addForm4 } from "./api";
 
@@ -51,8 +51,8 @@ const Hireform = () => {
                                     <div className="row mb-5">
                                         <div className="row">
                                             <div>
-                                                <p id='form-p1' style={{ color: "#ea2425;" }}>Please Post your details!</p>
-                                                <p id='form-p2'>Hire Experienced Dispatcher Today!</p>
+                                                <p id='form-p12' style={{ color: "#ea2425;" }}>Please Post your details!</p>
+                                                <p id='form-p13'>Hire Experienced Dispatcher Today!</p>
                                             </div>
                                         </div>
                                     </div>

@@ -16,11 +16,11 @@ class Header extends Component {
 
 <div id='maindiv'>
 <>
-  <Navbar bg="light" variant="light">
+  <Navbar  bg="light" variant="light">
     <Container>
     <Navbar.Brand href="#home">  <img src='/logo.jpg' style={{ height: "80px", width: "150px", marginLeft: "-70px"}}></img></Navbar.Brand>
     <Nav className="me-auto" >
-      <Link to="/" style={{marginLeft:"20px",color:"green",textDecoration: "none"}}  >Home</Link>
+      <Link to="/" style={{marginLeft:"20px",color:"green",textDecoration: "none",}}  >Home</Link>
       
       <Link to="/services" style={{marginLeft:"20px",color:"green",textDecoration: "none"}}  >Services</Link>
       <Link to="/dispatchers" style={{marginLeft:"20px",color:"green",textDecoration: "none"}}>Dispatchers</Link>

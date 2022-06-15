@@ -1,9 +1,9 @@
 #form-1{
-    padding: 40px 450px 40px 550px;
+    padding: 40px 50px 40px 550px;
 }
 
 #form-p1{
-    text-align: center;
+   margin-right:1000px;
     font-size: 40px;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -103,3 +103,11 @@
     
 }
 
+
+#p4{
+    
+    margin-left:630px;
+    margin-top:-560px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+}

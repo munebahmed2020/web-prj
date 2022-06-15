@@ -4,6 +4,7 @@ import Slider from '../slider';
 import Getstarted from '../getstarted';
 import Map from '../Map';
 import Footer from '../footer';
+import FrontPic from '../landingpp';
 
 
 
@@ -13,16 +14,41 @@ class LandingPage extends Component {
         return (
             <div>
                 <Header/>
-
+                <FrontPic/>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                
+               
 
                 <Slider/>  
-<Getstarted/> 
+               
+                
+                
+                
+                
+                
+                
 
-
-
-
-<Map/>
-<Footer/>
+                <Map/>
+                
+                <Footer/>
 
 
 

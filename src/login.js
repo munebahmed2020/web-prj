@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import './login.css';
 import { useNavigate } from "react-router";
 import { addForm2 } from "./api";
+import img10 from './images/img10.jpg';
 
 const ValidationSchema = Yup.object().shape({
 
@@ -37,6 +38,7 @@ const Login = () => {
                         {({ touched, errors, isSubmitting, values }) =>
                             !isSubmitting ? (
                                 <div>
+                                    
                                     <div className="row mb-5">
                                         <div className="row">
                                             <div>
@@ -49,14 +51,14 @@ const Login = () => {
                                         
 
                                         <div className="form-group">
-
+                                        
                                             <Field
                                                 id="input-1"
                                                 type="email"
                                                 name="email"
                                                 placeholder="Enter email"
                                                 autocomplete="off"
-                                                className={`mt-2 form-control
+                                                className={`mt-4 
 						${touched.email && errors.email ? "is-invalid" : ""}`}
                                             />
 
@@ -69,13 +71,13 @@ const Login = () => {
 
 
                                         <div  className="form-group">
-
+                                        
                                             <Field 
                                                 id="input-1"
                                                 type="password"
                                                 name="password"
                                                 placeholder="Password"
-                                                className={`mt-2 form-control
+                                                className={`mt-4 
 						${touched.phone && errors.phone
                                                         ? "is-invalid"
                                                         : ""
@@ -88,21 +90,16 @@ const Login = () => {
                                             />
                                         </div>
 
-    
 
-                                        
-
-                                        
-                                       
 
                                         <button
                                             id='submit-form'
                                             type="submit"
-                                            className="btn btn-primary btn-block mt-4"
+                                            
                                         >
                                            Login
                                         </button>
-
+                                        <img id='p4' src={img10}></img>
                                     </Form>
                                 </div>
                             ) : (

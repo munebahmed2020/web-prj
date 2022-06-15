@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import './register.css'
 import { useNavigate } from "react-router";
 import { addForm3 } from "./api";
-
+import img12 from './images/img12.jpg';
 const ValidationSchema = Yup.object().shape({
     name: Yup.string()
         .required("Full Name is required"),
@@ -53,7 +53,7 @@ const Register = () => {
                                         <div className="row">
                                             <div>
                                                 <p id='form-p1' style={{ color: "#ea2425;" }}>Register</p>
-                                                <p id='form-p2'>Hire Experienced Dispatcher Today!</p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@ const Register = () => {
                                                 type="text"
                                                 name="name"
                                                 placeholder="Full Name"
-                                                className={`mt-2 form-control
+                                                className={`mt-4
 						${touched.name && errors.name ? "is-invalid" : ""}`}
                                             />
 
@@ -85,7 +85,7 @@ const Register = () => {
                                                 name="email"
                                                 placeholder="Enter email"
                                                 autocomplete="off"
-                                                className={`mt-2 form-control
+                                                className={`mt-4
 						${touched.email && errors.email ? "is-invalid" : ""}`}
                                             />
 
@@ -104,7 +104,7 @@ const Register = () => {
                                                 type="tel"
                                                 name="phone"
                                                 placeholder="Phone Number"
-                                                className={`mt-2 form-control
+                                                className={`mt-4
 						${touched.phone && errors.phone
                                                         ? "is-invalid"
                                                         : ""
@@ -124,7 +124,7 @@ const Register = () => {
                                         
 
                                         <div>
-                                            <p id='form-p3' className={`mt-2 form-control
+                                            <p id='form-p9' className={`mt-4 
 						${touched.gender && errors.gender
                                                     ? "is-invalid"
                                                     : ""
@@ -152,7 +152,7 @@ const Register = () => {
     type="password"
     name="password"
     placeholder="Password"
-    className={`mt-2 form-control
+    className={`mt-4
 ${touched.password && errors.password
             ? "is-invalid"
             : ""
@@ -169,11 +169,11 @@ ${touched.password && errors.password
                                         <button
                                             id='submit-form'
                                             type="submit"
-                                            className="btn btn-primary btn-block mt-4"
+                                            
                                         >
                                             Register
                                         </button>
-
+                                        <img id='p5' src={img12}></img>
                                     </Form>
                                 </div>
                             ) : (
