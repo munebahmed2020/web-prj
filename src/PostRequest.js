@@ -22,7 +22,7 @@ const Login = () => {
   };
   return (
     <div className="container">
-     <h1>Post Your Query</h1>
+     <h1 >Post Your Query</h1>
      <form>
         <label className="mb-2"> Query Post</label>
       <input
@@ -30,7 +30,7 @@ const Login = () => {
         type="text"
         name="querypost"
         onChange={(e) => setQueryPost(e.target.value)}
-        placeholder="Rewrite your Post"
+        placeholder="Enter required Post"
         
       ></input>
 
@@ -40,7 +40,7 @@ const Login = () => {
         type="text"
         name="QuerySalary"
         onChange={(e) => setQuerySalary(e.target.value)}
-        placeholder="Edit Your Salary"
+        placeholder="Enter  offered Salary"
         
       ></input>
       <label className="mb-2"> Query Description</label>
@@ -49,7 +49,7 @@ const Login = () => {
         type="text"
         name="QueryDescription"
         onChange={(e) => setQueryDescription(e.target.value)}
-        placeholder="Rewrite Query Description"
+        placeholder=" Enter Description"
         
       ></input>
       <label className="mb-2"> Query Number</label>
@@ -58,7 +58,7 @@ const Login = () => {
         type="number"
         name="QueryNumber"
         onChange={(e) => setQueryNumber(e.target.value)}
-        placeholder="Rewrite Query Description"
+        placeholder="Enter Query number"
         
       ></input>
         </form>
